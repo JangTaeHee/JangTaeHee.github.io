@@ -40,3 +40,28 @@ introduction: Understand how your browser works.
 
 - Webkit : An open source based engine co-developed by google and apple. the major mobile browser are all based on webkit.
 ![placeholder](http://drive.google.com/uc?export=view&id=1l6H03FmewO8ZIw42YeZjrMga78JqDsWR "webkit flow")
+- Gecko : C++ based engine, maintained by Mozilla, not commercial open source, but also for general developers.
+![placeholder](http://drive.google.com/uc?export=view&id=1ZyU8htKKDkzR5fTnyTdN-VkHfFqlyjoL "gecko flow")
+
+## Browser basic structure
+![placeholder](http://drive.google.com/uc?export=view&id=1RuB2kcbqYcbHYCbybX8ArdsKVD1Ig-j- "browser components")
+- UI : User-operable area such as address window, favorites, etc.
+- Browser engine : Control behavior of UI and Rendering engine.
+- Rendering engine : Display requested resource on screen.
+- networking : Network calls such as http requests.
+- UI back-end : Use os user interface method to illustrate basic widgets (combo boxes, etc.).
+- JavaScript interpreter : interpret and execute JavaScript.
+- Data store : Ability to store using browser memory such as local storage, indexed db, cookies.
+
+## Rendering Engine
+- The role of displaying the request from the server to the browser.
+- Operation process
+    - HTML -> DOM parsing.
+    - Render Tree build.
+    - Render Tree placement.
+    - Draw a rendering tree.
+> Render Tree : HTML element + Tree with CSS styling information, DOM + CSSOM.
+
+## Critical Rendering Path - Introducing the main rendering path
+- A series of steps that a browser must take to convert a file, such as html, css, javascript, etc, and display it on the screen in pixels.
+- The process of rendering optimization should always start with a measurement and proceed with optimization.
