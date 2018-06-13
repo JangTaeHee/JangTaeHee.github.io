@@ -3,7 +3,7 @@ title: "JangTaeHee | Blog"
 email: "jang0819@gmail.com"
 description: "Hello everyone."
 baseurl:  # the subpath of your site, e.g. /blog
-url: "https://jangtaehee.github.io/" # the base hostname & protocol for your site
+url: "https://jangtaehee.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-120786427-1"
 
 # User Settings
