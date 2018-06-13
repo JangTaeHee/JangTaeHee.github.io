@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="http://drive.google.com/uc?export=view&id=14LyfCpKQooGIR38JyXHWfCgqQ3hYRGIf" alt="Jang Tae Hee" width="50%">
+<img itemprop="image" class="img-rounded" src="http://drive.google.com/uc?export=view&id=14LyfCpKQooGIR38JyXHWfCgqQ3hYRGIf" alt="Jang Tae-hee" width="50%">
 
 ## About
 
