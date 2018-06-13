@@ -1,19 +1,19 @@
 # Site Settings
-title: JangTaeHee | Blog
-email: jang0819@gmail.com
-description: Hello everyone.
+title: "JangTaeHee | Blog"
+email: "jang0819@gmail.com"
+description: "Hello everyone."
 baseurl:  # the subpath of your site, e.g. /blog
-url: https://jangtaehee.github.io/ # the base hostname & protocol for your site
-google_analytics: UA-120786427-1
+url: "https://jangtaehee.github.io/" # the base hostname & protocol for your site
+google_analytics: "UA-120786427-1"
 
 # User Settings
-username: JangTaeHee
-user_description: Hello everyone.
-disqus_username: JangTaeHee
+username: "JangTaeHee"
+user_description: "Hello everyone."
+disqus_username: "JangTaeHee"
 
 # Social Media
 # Remove the item if you don't need it
-github_username: JangTaeHee
+github_username: "JangTaeHee"
 facebook_username: facebook_username
 twitter_username: twitter_username
 instagram_username: instagram_username
