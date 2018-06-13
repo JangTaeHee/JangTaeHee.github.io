@@ -1,14 +1,14 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
-url: "https://www.rossener.com" # the base hostname & protocol for your site
+title: JangTaeHee | Blog
+email: jang0819@gmail.com
+description: Hello eveyone.
+baseurl:  # the subpath of your site, e.g. /blog
+url: "https://jangtaehee.github.io/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
+username: JangTaeHee
+user_description: Hello eveyone.
 disqus_username: disqus_username
 
 # Social Media
