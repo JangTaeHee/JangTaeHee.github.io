@@ -5,10 +5,12 @@ description: Some description.
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="/assets/img/user/profile.gif" alt="Jang Tae Hee" max-width="50%">
+<img itemprop="image" class="img-rounded" src="/assets/img/user/profile.gif" alt="Jang Tae Hee" width="50%">
 
 ## About
 
-3년차 웹 개발자
+3 year Junior Web Developer
 
-관심사 : Vue.js / Node.js / JavaScript / Progressive Web App / Amazon Web Service
+From : Republic of Korea
+
+Interested in : Vue.js / Node.js / JavaScript / Progressive Web App / Amazon Web Service
