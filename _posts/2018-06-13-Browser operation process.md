@@ -39,4 +39,4 @@ introduction: Understand how your browser works.
 ## Browser Engine
 
 - Webkit : An open source based engine co-developed by google and apple. the major mobile browser are all based on webkit.
-![placeholder](http://drive.google.com/uc?export=view&id=1l6H03FmewO8ZIw42YeZjrMga78JqDsWR/800x400 "webkit flow")
+![placeholder](http://drive.google.com/uc?export=view&id=1l6H03FmewO8ZIw42YeZjrMga78JqDsWR "webkit flow")
