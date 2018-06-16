@@ -1,6 +1,6 @@
 # Site Settings
 title: "JangTaeHee | Blog"
-email: "jang0819@gmail.com"
+email: "jangta8@gmail.com"
 description: "Hello everyone."
 baseurl:  # the subpath of your site, e.g. /blog
 url: "https://jangtaehee.github.io" # the base hostname & protocol for your site
