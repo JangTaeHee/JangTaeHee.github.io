@@ -156,17 +156,22 @@ gulp.task('copyHtml', function(){
 
 ## gulp.watch()
 - When a change is made to the first specified parameter(file), the operation of the second parameter(task) is performed.
+
 ```js
 // if the js file under 'source/javascript' is changed, the 'jshint' task is executed.
 gulp.watch('source/javascript/**/*.js', ['jshint']);
 // returns an EventEmitter that fires a change event after execution.
 ```
+
 ### watch() API type
+
 ```js
 gulp.watch(glob, [cb])
 ```
+
 - glob : specifies the to monitor for changes to String or Array.
 - cb(event) : the function to be called whenever there is a change in the specified file.
+
 ```js
 gulp.watch('js/**/*.js', function(event){
     console.log('file ' + event.path + ' was ' + event.type + ', running tasks...');
