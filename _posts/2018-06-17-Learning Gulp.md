@@ -54,18 +54,23 @@ gulp.task('default', function() {
 
 ## gulp.task()
 - Commands for specifying and executing specific tasks.
+
 ```js
 gulp.task('taskname', function(){
     // Add login to run.
 ;})
 ```
+
 ### task() API 형식
+
 ```js
 gulp.task(name, [deps], fn)
 ```
+
 - name : The name of the task. Whitespace is not allowed in the middle.
 - deps : A list of tasks to be executed and completed before executing the task. Array type, options.
 - fn : The function to which the task actually executes logic. options.
+
 ```js
 gulp.task('task1', function(){
     var a = 1;
@@ -83,8 +88,10 @@ gulp.task('task2', ['task1'], function(){
 // The tasks are processed in parallel.
 gulp.task('build', ['array', 'of', 'task', 'name']); 
 ```
+
 ### gulp task asynchronous processing
 - Asynchronous processing is possible instead of sequential processing.
+
 ```js
 // run a command in a shell 
 var exec = require('child_process').exec; 
@@ -105,7 +112,9 @@ gulp.task('somename', function(cb) {
     });
 });
 ```
+
 ### The following is a method of stream processing.
+
 ```js
 gulp.task('somename', function() {
     var stream = gulp.src('client/**/*.js')
@@ -119,10 +128,13 @@ gulp.task('somename', function() {
 - The files in that location are returned as a stream of Vinyl files via the specified logic.
 - You can use ```.pipe``` to pass the results to another plugin.
 ### src() API type
+
 ```js
 gulp.src(globs, [optins])
 ```
+
 - globs : One or more files can be specified as String or Array. See below.
+
 ```js
 // When specifying a single file
 gulp.src('client/*.js');
@@ -135,6 +147,7 @@ gulp.src(['client/*.js', '!client/b*.js', 'client/bad.js'])
 
 ## gulp.dest()
 - Specifies the file location where the final result value is to be output. If the folder does not exist in the path, create it.
+
 ```js
 gulp.task('copyHtml', function(){
     gulp.src('source/*.html').pipe(gulp.dest('public'));
