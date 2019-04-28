@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning Node.js"
-date: 2018-06-115 13:11:24
+date: 2018-06-15 13:11:24
 image: 'https://drive.google.com/open?id=1jJfHqZZPXhtVXrKiO0d7bYW-7XVSzKwk'
 description: The streaming build system.
 category: 'web'
