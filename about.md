@@ -11,6 +11,6 @@ permalink: /about/
 
 Republic of Korea
 
-3 year Junior Web Developer
+4 year Junior Web Developer
 
-Vue.js / Node.js / JavaScript / Progressive Web App / Amazon Web Service
+Java / JavaScript / Node.js / DevOps / Vue.js / Progressive Web App / Amazon Web Service
