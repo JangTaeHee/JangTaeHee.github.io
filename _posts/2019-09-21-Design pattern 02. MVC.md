@@ -4,7 +4,7 @@ title: "Design pattern 02. MVC"
 date: 2019-09-21 14:01:01
 image: 'http://drive.google.com/uc?export=view&id=1ZzJFgX8qVJp0T5KOwA6PEB6uW32OvN1-'
 description: Understand MVC patterns.
-category: 'Design pattern'
+category: 'design pattern'
 tags:
 - design pattern
 twitter_text: Understand MVC patterns.

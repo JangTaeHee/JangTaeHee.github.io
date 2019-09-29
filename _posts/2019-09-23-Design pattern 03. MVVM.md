@@ -4,7 +4,7 @@ title: "Design pattern 03. MVVM"
 date: 2019-09-23 17:01:01
 image: 'http://drive.google.com/uc?export=view&id=1Wh1-O0xkVtg6FvPz4j8UIcCAaCcbLV8V'
 description: Understand MVVM patterns.
-category: 'Design pattern'
+category: 'design pattern'
 tags:
 - design pattern
 twitter_text: Understand MVVM patterns.

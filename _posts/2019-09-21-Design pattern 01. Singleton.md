@@ -4,7 +4,7 @@ title: "Design pattern 01. Singleton"
 date: 2019-09-21 13:01:01
 image:
 description: Understand singleton patterns.
-category: 'Design pattern'
+category: 'design pattern'
 tags:
 - design pattern
 twitter_text: Understand singleton patterns.
