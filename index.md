@@ -52,19 +52,17 @@ window.GitpleConfig = {
 
 !function(){function e(){function e(){var e=t.contentDocument,a=e.createElement("script");a.type="text/javascript",a.async=!0,a.src=window[n]&&window[n].url?window[n].url+"/inapp-web/gitple-loader.js":"https://app.gitple.io/inapp-web/gitple-loader.js",a.charset="UTF-8",e.head&&e.head.appendChild(a)}var t=document.getElementById(a);t||((t=document.createElement("iframe")).id=a,t.style.display="none",t.style.width="0",t.style.height="0",t.addEventListener?t.addEventListener("load",e,!1):t.attachEvent?t.attachEvent("onload",e):t.onload=e,document.body.appendChild(t))}var t=window,n="GitpleConfig",a="gitple-loader-frame";if(!window.Gitple){document;var i=function(){i.ex&&i.ex(arguments)};i.q=[],i.ex=function(e){i.processApi?i.processApi.apply(void 0,e):i.q&&i.q.push(e)},window.Gitple=i,t.attachEvent?t.attachEvent("onload",e):t.addEventListener("load",e,!1)}}();
 
-if(window.Gitple){
-    const params = {
-        'author': 'Jang Tae Hee',
-        'email': 'taehee.jang@gitple.com',
-        'phone': '010-1111-2222',
-        'meta': {
-            'Company': 'Gitple',
-            'Link': '<a href="https://gitple.io/" target="_blank">Gitple</a>',
-            'Github': '<a href="https://github.com/taeheejang/" target="_blank">github</a>'
-        }
+const params = {
+    'author': 'Jang Tae Hee',
+    'email': 'taehee.jang@gitple.com',
+    'phone': '010-1111-2222',
+    'meta': {
+        'Company': 'Gitple',
+        'Link': '<a href="https://gitple.io/" target="_blank">Gitple</a>',
+        'Github': '<a href="https://github.com/taeheejang/" target="_blank">github</a>'
     }
-
-    Gitple('boot', params);
 }
+
+Gitple('boot', params);
 
 </script>
