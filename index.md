@@ -57,9 +57,9 @@ const params = {
     email: 'taehee.jang@gitple.com',
     phone: '010-1111-2222',
     meta: {
-        Company: 'Gitple',
-        Link: '<a href="https://gitple.io/" target="_blank">Gitple</a>',
-        Github: '<a href="https://github.com/taeheejang/" target="_blank">github</a>'
+        'Company': 'Gitple',
+        'Link': '<a href="https://gitple.io/" target="_blank">Gitple</a>',
+        'Github': '<a href="https://github.com/taeheejang/" target="_blank">Github</a>'
     }
 }
 
